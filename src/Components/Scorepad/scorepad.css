@@ -1,0 +1,89 @@
+.scorepad-table {
+    margin: auto;
+    font-size: 1.6rem;
+    font-family: "PrinceOfPersia";
+    text-align: center;
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 80%;
+    }
+
+    .scorepad-table {
+        margin: auto;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+}
+
+.scorepad-table, .scorepad-table th, .scorepad-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.scorepad-table tr { 
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+input[type='number'], input[type='text'] {
+    text-align: center;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+}
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+
+.input input {
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: 45px;
+}
+
+.total {
+    text-align: center;
+}
+
+.small-col {
+    width: 15%;
+}
+
+.money-row-color {
+    background-color: #80cecd;
+}
+
+.vizier-row-color {
+    background-color: #ffec96;
+}
+
+.elder-row-color {
+    background-color: #e7e0d0;
+}
+
+.djin-row-color {
+    background-color: #f7bcd6;
+}
+
+.palm-row-color {
+    background-color: #e3cd97;
+}
+
+.palace-row-color {
+    background-color: #bdbfc7;
+}
+
+.camel-row-color {
+    background-color: #fdd49b;
+}
+
+.resource-row-color {
+    background-color: #dde799;
+}
